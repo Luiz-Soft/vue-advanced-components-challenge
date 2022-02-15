@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ColorSelectorPanel/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ColorSelectorPanel from './views/color-selector-panel/ColorSelectorPanel.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ColorSelectorPanel
   }
 }
 </script>
